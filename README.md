@@ -6,6 +6,7 @@ Components:
 * [Launch File](#launch-file)
 * [World and Models](#world-and-models)
 * [Screenshots](#screenshots)
+* [See Also](#see-also)
 
 
 
@@ -37,3 +38,8 @@ In the `models` directory lives our camera sensor which is a simple sdf file con
 ![gazebo](/screenshots/gazebo.png)
 
 ![rviz2](/screenshots/rviz.png)
+
+---
+# See Also
+* [ros_gz](https://github.com/gazebosim/ros_gz)
+* [Setting up a robot simulation (Ignition Gazebo)](https://docs.ros.org/en/foxy/Tutorials/Advanced/Simulators/Ignition.html)
