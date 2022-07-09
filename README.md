@@ -34,6 +34,6 @@ In the `worlds` directory, there is a simple sdf file that contains a box, a pla
 In the `models` directory lives our camera sensor which is a simple sdf file containing the sensor and its description.
 
 # Screenshots
-![gazebo](/screenshots/gazebo.png]
+![gazebo](/screenshots/gazebo.png)
 
-![rviz2](/screenshots/rviz.png]
+![rviz2](/screenshots/rviz.png)
