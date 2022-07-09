@@ -5,6 +5,7 @@ Components:
 * [setup.py](#setup)
 * [Launch File](#launch-file)
 * [World and Models](#world-and-models)
+* [Building and Running](#building-and-running)
 * [Screenshots](#screenshots)
 * [See Also](#see-also)
 
@@ -33,7 +34,15 @@ Then we create 3 components:
 In the `worlds` directory, there is a simple sdf file that contains a box, a plane, and a sun. We have also included our camera sensor in this file using the `<include>` tag.
 
 In the `models` directory lives our camera sensor which is a simple sdf file containing the sensor and its description.
-
+# Building and Running
+Copy the `camera-sensor-example` directory in your ros 2 workspace and run:
+```shell
+colcon build
+```
+Finally launch the package:
+```shell
+ros2 launch camera-sensor-example arashs_wonderland.launch.py
+```
 # Screenshots
 ![gazebo](/screenshots/gazebo.png)
 
