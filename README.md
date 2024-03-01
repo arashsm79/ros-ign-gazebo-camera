@@ -1,6 +1,9 @@
 # ros 2 <-> ign gazebo camera sensor example
 > A simple example demonstrating the use of ros_ign_bridge to enable the exchange of messages between ignition gazebo and ros 2. A camera sensor is included in a world containing a box and its output is shown using rviz.
 
+**Ignition Gazebo has since been renamed back to Gazebo.
+To see a more complex example of a mobile robot simulated with the new Gazebo and ROS2, you may check out the [eddiebot-ros](https://github.com/arashsm79/eddiebot-ros) repository.**
+
 Components:
 * [setup.py](#setup)
 * [Launch File](#launch-file)
